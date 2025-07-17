@@ -5,6 +5,7 @@ const data = [
     { name: "Xabi Alonso", link: "./pages/Alonso/alonso.html#alonso" },
     { name: "Roberto De Zerbi", link: "./pages/De_Zerbi/de_zerbi.html" },
     { name: "Hansi Flick", link: "./pages/Flick/flick.html#flick" },
+    { name: "Cesc Fabregas", link: "./pages/Fabregas/fabregas.html" },
     { name: "Coaches", link: "./pages/coaches.html" },
     { name: "Content of drills", link: "./pages/content.html" },
     { name: "Training methods", link: "./pages/Alonso/alonso.html", group: "Xabi Alonso" },
