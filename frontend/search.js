@@ -35,7 +35,7 @@ function renderResults(filtered) {
     filtered.forEach(item => {
         const div = document.createElement('div');
         
-        // Jeśli item.group istnieje, dodaj ją obok nazwy
+        
         const label = item.group ? ` <span style="color: gray;">(${item.group})</span>` : '';
 
         div.innerHTML = `<a href="${item.link}" style="text-decoration:none;color:inherit;">${item.name}${label}</a>`;
