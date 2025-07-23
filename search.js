@@ -1,16 +1,16 @@
 const data = [
-    { name: "Passing Drill", link: "../pages/Passing/content-passing.html#passing" },
-    { name: "Possession Drill", link: "../pages/Possession/content-possession.html#possession" },
-    { name: "Pep Guardiola", link: "../pages/Guardiola/guardiola.html#guardiola" },
-    { name: "Xabi Alonso", link: "../pages/Alonso/alonso.html#alonso" },
-    { name: "Roberto De Zerbi", link: "../pages/De_Zerbi/de_zerbi.html" },
-    { name: "Hansi Flick", link: "../pages/Flick/flick.html#flick" },
-    { name: "Cesc Fabregas", link: "../pages/Fabregas/fabregas.html" },
-    { name: "Julian Nagelsmann", link: "../pages/Nagelsmann/nagelsmann.html" },
-    { name: "Coaches", link: "../pages/coaches.html" },
-    { name: "Content of drills", link: "../pages/content.html" },
-    { name: "Training methods", link: "../pages/Alonso/alonso.html", group: "Xabi Alonso" },
-    { name: "Training methods", link: "../pages/Flick/flick.html#flick", group: "Hansi Flick" }
+    { name: "Passing Drill", link: "./frontend/pages/Passing/content-passing.html#passing" },
+    { name: "Possession Drill", link: "./frontend/pages/Possession/content-possession.html#possession" },
+    { name: "Pep Guardiola", link: "./frontend/pages/Guardiola/guardiola.html#guardiola" },
+    { name: "Xabi Alonso", link: "./frontend/pages/Alonso/alonso.html#alonso" },
+    { name: "Roberto De Zerbi", link: "./frontend/pages/De_Zerbi/de_zerbi.html" },
+    { name: "Hansi Flick", link: "./frontend/pages/Flick/flick.html#flick" },
+    { name: "Cesc Fabregas", link: "./frontend/pages/Fabregas/fabregas.html" },
+    { name: "Julian Nagelsmann", link: "../frontend/pages/Nagelsmann/nagelsmann.html" },
+    { name: "Coaches", link: "./frontend/pages/coaches.html" },
+    { name: "Content of drills", link: "./frontend/pages/content.html" },
+    { name: "Training methods", link: "./frontend/pages/Alonso/alonso.html", group: "Xabi Alonso" },
+    { name: "Training methods", link: "./frontend/pages/Flick/flick.html#flick", group: "Hansi Flick" }
 ];
 
 const input = document.getElementById('searchInput');
